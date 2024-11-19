@@ -8,7 +8,7 @@ function Navbar() {
             <div className='space-x-6'>
                 <a href="#home" className='hover:text-gray-500'>Home</a>
                 <a href="#about" className='hover:text-gray-500'>About me</a>
-                <a href="#sevices" className='hover:text-gray-500'>Services</a>
+                <a href="#services" className='hover:text-gray-500'>Services</a>
                 <a href="#projects" className='hover:text-gray-500'>Projects</a>
                 <a href="#contact" className='hover:text-gray-500'>Contact</a>
             </div>
