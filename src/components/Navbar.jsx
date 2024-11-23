@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className='bg-black text-white px-8 md:px-16 lg:px-25'>
         <div className='container py-2 flex justify-center md:justify-between items-center'>
-            <div className='text-2xl font-bold hidden md:inline'>Purbanka</div>
+            <div className='text-2xl font-bold hidden md:inline'>Purbanka Ghosh</div>
             <div className='space-x-6'>
                 <a href="#home" className='hover:text-gray-500'>Home</a>
                 <a href="#about" className='hover:text-gray-500'>About me</a>
