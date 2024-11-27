@@ -19,7 +19,7 @@ const contact = () => {
                 </div>
                 <div className='mb-4'>
                     <FaMapMarkedAlt className='inline-block text-green-400 mr-2'></FaMapMarkedAlt>
-                   <span>city,street,province,country</span>
+                   <span>city,street,house no,province,country</span>
                 </div>
                </div>
                <div className='flex-1 w-full '>
