@@ -19,7 +19,7 @@ const contact = () => {
                 </div>
                 <div className='mb-4'>
                     <FaMapMarkedAlt className='inline-block text-green-400 mr-2'></FaMapMarkedAlt>
-                   <span>city,street,house no,province,country</span>
+                   <span>Dhaleswar road no:15,Agartala,West Tripura</span>
                 </div>
                </div>
                <div className='flex-1 w-full '>
@@ -30,16 +30,14 @@ const contact = () => {
                     </div>
                     <div>
                         <label htmlFor="email" className='block mb-2'>Email</label>
-                        <input type="text" className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400' placeholder='Enter your name' />
+                        <input type="text" className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400' placeholder='Enter your email' />
                     </div>
                     <div>
-                        <label htmlFor="name" className='block mb-2'>Your Name</label>
-                        <input type="text" className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400' placeholder='Enter your name' />
+                        <label htmlFor="message" className='block mb-2'>message</label>
+                        <textarea type="text" className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400'
+                        rows="5" placeholder='Enter your message'/>
                     </div>
-                    <div>
-                        <label htmlFor="name" className='block mb-2'>Your Name</label>
-                        <input type="text" className='w-full p-2 rounded bg-gray-800 border border-gray-600 focus:outline-none focus:border-green-400' placeholder='Enter your name' />
-                    </div>
+                    <button className='bg-gradient-to-r from-gray-400 to-blue-500 text-white hidden md:inline transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full'>Send</button>
                    </form>
                </div>
             </div>
